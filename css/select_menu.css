@@ -8,9 +8,10 @@
     bottom: 0;
 }
 .cat_and_karamelka-img {
+    width: 175px;
     position: absolute;
-    top: 76px;
-    right: 16px;
+    right: -20px;
+    top: -170px;
 }
 
 
