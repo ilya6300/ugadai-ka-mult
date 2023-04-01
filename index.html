@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/begin_menu.css" />
+    <link rel="stylesheet" href="./css/zeroing.css" />
+    <title>Угадай-ка мультик</title>
+  </head>
+  <body class="page">
+    <audio id="background-audio" src="./audio/music_phone.mp3" loop></audio>
+    <main class="container">
+      <!-- Header -->
+      <header class="header">
+      <a href=""><img src="./img/logo_v2.png" alt="угадай.картинка" class="guess_the-img" /></a>
+      <img class="speaker_animation" id="speaker" src="./img/icon/play_speaker.png">
+      <div class="nav-arrow-container">
+        <img
+        src="./img/icon/prew.png"
+        alt="стрелка назад"
+        id="arrow-prew"/> 
+              <img
+      src="./img/icon/next.png"
+      alt="стрелка вперёд"
+      id="arrow-next"
+    />
+      </div>
+    </header>
+      <!-- Меню начало -->
+      <div id="begin-menu-container">
+        <img src="./img/mishka.png" alt="Мишка.картинка" class="bear-img-mobile" />
+        <div class="begin-button-container">
+          <img src="./img/bear_desctop.png" alt="Мишка.картинка" class="bear-img-desctope" />
+          <button class="begin-btn" id="start-game-btn">Играть</button>
+          <button class="begin-btn" id="regulations-btn">Правила</button>
+        </div>
+      </div>
+      <!-- Меню выбора угадай мультфилмы -->
+      <div class="select-menu-cartoon-cls" id="select-menu-cartoon">
+        <img
+          src="./img/cat_and_karamelka.png"
+          alt="кошечка с карамельками.картинка"
+          class="cat_and_karamelka-img"
+        />
+        <div class="select-button-container">
+            <button class="select-category">Мультфильмы</button>
+            <button id="select-btn-guess-frame" class="select-subcategory">Угадай по кадру</button>
+            <button id="select-btn-guess-hero" class="select-subcategory">Угадай персонажа</button>
+        </div>
+      </div>
+      <!-- Окно игры -->
+<div class="show-windows-cls" id="game-menu">
+  <div class="block-page"></div>
+
+
+        <img src="" alt="мультик" id="img-content">
+        <div class="game-button-container">
+          <button class="begin-btn begin-btn-position" id="btn-show-answer">Показать ответ</button>
+          <div class="hidden block-answer-cls" id="block-answer"></div>
+        </div>
+        <footer class="footer">
+          
+        </footer>
+    </main>
+    <script src="./js/app.js" type="module"></script>
+    <script src="./js/arrayFragment.js" type="module"></script>    
+    <script src="./js/arrayHeroes.js" type="module"></script>   
+  </body>
+</html>

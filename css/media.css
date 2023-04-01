@@ -1,0 +1,51 @@
+
+
+@media screen and (min-width: 600px) {
+  .bear-img-desctope {
+    display: block !important;
+    /* margin-top: -20px; */
+    /* width: 238px; */
+  }
+  .bear-img-mobile {
+    display: none !important;
+  }
+  .select-button-container {
+    left: 60px;
+  }
+  .select-category{
+    width: 350px;
+    height: 67px !important;
+  }
+.select-subcategory{
+    width: 350px;
+    height: 67px !important;
+    margin-left: 175px;
+}
+.cat_and_karamelka-img {
+    top: 20vh;
+    right: 10%;
+}
+.begin-btn {
+  width: 260px;
+  height: 67px;
+}
+.game-button-container .begin-btn {
+  width: 367px;
+}
+.block-answer-cls {
+  height: 67px !important;
+  padding: 20px 35px !important;
+  width: 367px !important;
+  text-align: center;
+}
+  #img-content {
+    max-height: 472px !important;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  #img-content {
+    
+  }
+}

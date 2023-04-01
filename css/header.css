@@ -1,0 +1,24 @@
+.header {
+  position: relative;
+  text-align: center;
+  top: 6px;
+  height: 177px;
+  z-index: 2;
+}
+.nav-arrow-container {
+  padding: 0 28px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#arrow-prew {
+  display: none;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+#arrow-next {
+  display: none;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}

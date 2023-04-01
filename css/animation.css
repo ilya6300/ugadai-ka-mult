@@ -1,0 +1,25 @@
+.show-windows-cls {
+    animation: show_windows 1s forwards;
+}
+
+.speaker_animation {
+animation: play_sound_of_sreaker 1s infinite;
+}
+
+@keyframes play_sound_of_sreaker {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes show_windows {
+  0% {
+    left: -1000px;
+  }
+  100% {
+    left: 0px;
+  }
+}

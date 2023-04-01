@@ -1,0 +1,78 @@
+/* Начальное меню */
+.begin-button-container {
+  width: 189px;
+  margin: 366px auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  position: relative;
+}
+.begin-btn {
+  height: 46px;
+  background: #0045be;
+  color: #ffffff;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+/* Меню выбора мультика */
+
+.select-button-container {
+  /* display: flex;
+  flex-direction: column; */
+  width: 275px;
+  gap: 35px;
+  position: absolute;
+  left: 30px;
+  top: 266px;
+  /* transform: translate(-50%); */
+}
+.select-button-container button {
+  height: 46px;
+  background: #0045be;
+  color: #ffffff;
+  border-radius: 9px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  cursor: pointer;
+}
+.select-category {
+  width: 235px;
+  margin-bottom: 54px;
+}
+.select-subcategory {
+  width: 236px;
+  margin: 0 0 25px 47px;
+}
+
+/* Контейнер игры */
+
+#game-menu .game-button-container button {
+  width: 217px;
+}
+
+#arrow-prew:hover {
+  transform: scale(1.2);
+}
+
+#arrow-next:hover {
+  transform: scale(1.2);
+}
+
+#speaker {
+  display: none;
+  position: absolute;
+  right: 7%;
+  top: 14px;
+  cursor: pointer;
+}
